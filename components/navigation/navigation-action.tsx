@@ -1,11 +1,11 @@
-'use client'
+"use client";
 
 import { Plus } from "lucide-react";
 import { ActionTooltip } from "@/components/action-tooltip";
 import { useModal } from "@/hooks/use-modal-store";
 
-export const  NavigationAction= () => {
-    const { onOpen } = useModal();
+export const NavigationAction = () => {
+  const { onOpen } = useModal();
   return (
     <div>
       <ActionTooltip side="right" align="center" label="Add a server">
@@ -23,4 +23,4 @@ export const  NavigationAction= () => {
       </ActionTooltip>
     </div>
   );
-}
+};
